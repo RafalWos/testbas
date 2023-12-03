@@ -1,0 +1,77 @@
+{
+	"Caption": "A_BusinessPartner",
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Header": {
+						"UseTopPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{Customer}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"OnPress": "/RusksMob/Actions/A_BusinessPartner/NavToA_BusinessPartner_Detail.action",
+						"StatusImage": "",
+						"Title": "{AcademicTitle}",
+						"Footnote": "{Supplier}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{AuthorizationGroup}",
+						"Subhead": "{BusinessPartner}",
+						"SubstatusText": "{BusinessPartnerCategory}"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					},
+					"Target": {
+						"EntitySet": "A_BusinessPartner",
+						"Service": "/RusksMob/Services/service1.service",
+						"QueryOptions": ""
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"ToolBar": {
+		"Items": [
+			{
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem",
+				"Caption": "Logout",
+				"OnPress": "/RusksMob/Actions/Logout.action"
+			}
+		]
+	},
+	"_Name": "A_BusinessPartner_List",
+	"PrefersLargeCaption": true
+}

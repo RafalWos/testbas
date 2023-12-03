@@ -1,0 +1,321 @@
+{
+	"Caption": "A_BusinessPartner Detail",
+	"DesignTimeTarget": {
+		"Service": "/RusksMob/Services/service1.service",
+		"EntitySet": "A_BusinessPartner",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{AcademicTitle}",
+						"Subhead": "{BusinessPartner}",
+						"BodyText": "",
+						"Footnote": "{Supplier}",
+						"Description": "{Customer}",
+						"StatusText": "{AuthorizationGroup}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{BusinessPartnerCategory}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "BusinessPartner",
+							"Value": "{BusinessPartner}"
+						},
+						{
+							"KeyName": "Customer",
+							"Value": "{Customer}"
+						},
+						{
+							"KeyName": "Supplier",
+							"Value": "{Supplier}"
+						},
+						{
+							"KeyName": "AcademicTitle",
+							"Value": "{AcademicTitle}"
+						},
+						{
+							"KeyName": "AuthorizationGroup",
+							"Value": "{AuthorizationGroup}"
+						},
+						{
+							"KeyName": "BusinessPartnerCategory",
+							"Value": "{BusinessPartnerCategory}"
+						},
+						{
+							"KeyName": "BusinessPartnerFullName",
+							"Value": "{BusinessPartnerFullName}"
+						},
+						{
+							"KeyName": "BusinessPartnerGrouping",
+							"Value": "{BusinessPartnerGrouping}"
+						},
+						{
+							"KeyName": "BusinessPartnerName",
+							"Value": "{BusinessPartnerName}"
+						},
+						{
+							"KeyName": "CorrespondenceLanguage",
+							"Value": "{CorrespondenceLanguage}"
+						},
+						{
+							"KeyName": "CreatedByUser",
+							"Value": "{CreatedByUser}"
+						},
+						{
+							"KeyName": "CreationDate",
+							"Value": "{CreationDate}"
+						},
+						{
+							"KeyName": "CreationTime",
+							"Value": "{CreationTime}"
+						},
+						{
+							"KeyName": "FirstName",
+							"Value": "{FirstName}"
+						},
+						{
+							"KeyName": "FormOfAddress",
+							"Value": "{FormOfAddress}"
+						},
+						{
+							"KeyName": "Industry",
+							"Value": "{Industry}"
+						},
+						{
+							"KeyName": "InternationalLocationNumber1",
+							"Value": "{InternationalLocationNumber1}"
+						},
+						{
+							"KeyName": "InternationalLocationNumber2",
+							"Value": "{InternationalLocationNumber2}"
+						},
+						{
+							"KeyName": "IsFemale",
+							"Value": "{IsFemale}"
+						},
+						{
+							"KeyName": "IsMale",
+							"Value": "{IsMale}"
+						},
+						{
+							"KeyName": "IsNaturalPerson",
+							"Value": "{IsNaturalPerson}"
+						},
+						{
+							"KeyName": "IsSexUnknown",
+							"Value": "{IsSexUnknown}"
+						},
+						{
+							"KeyName": "GenderCodeName",
+							"Value": "{GenderCodeName}"
+						},
+						{
+							"KeyName": "Language",
+							"Value": "{Language}"
+						},
+						{
+							"KeyName": "LastChangeDate",
+							"Value": "{LastChangeDate}"
+						},
+						{
+							"KeyName": "LastChangeTime",
+							"Value": "{LastChangeTime}"
+						},
+						{
+							"KeyName": "LastChangedByUser",
+							"Value": "{LastChangedByUser}"
+						},
+						{
+							"KeyName": "LastName",
+							"Value": "{LastName}"
+						},
+						{
+							"KeyName": "LegalForm",
+							"Value": "{LegalForm}"
+						},
+						{
+							"KeyName": "OrganizationBPName1",
+							"Value": "{OrganizationBPName1}"
+						},
+						{
+							"KeyName": "OrganizationBPName2",
+							"Value": "{OrganizationBPName2}"
+						},
+						{
+							"KeyName": "OrganizationBPName3",
+							"Value": "{OrganizationBPName3}"
+						},
+						{
+							"KeyName": "OrganizationBPName4",
+							"Value": "{OrganizationBPName4}"
+						},
+						{
+							"KeyName": "OrganizationFoundationDate",
+							"Value": "{OrganizationFoundationDate}"
+						},
+						{
+							"KeyName": "OrganizationLiquidationDate",
+							"Value": "{OrganizationLiquidationDate}"
+						},
+						{
+							"KeyName": "SearchTerm1",
+							"Value": "{SearchTerm1}"
+						},
+						{
+							"KeyName": "SearchTerm2",
+							"Value": "{SearchTerm2}"
+						},
+						{
+							"KeyName": "AdditionalLastName",
+							"Value": "{AdditionalLastName}"
+						},
+						{
+							"KeyName": "BirthDate",
+							"Value": "{BirthDate}"
+						},
+						{
+							"KeyName": "BusinessPartnerBirthDateStatus",
+							"Value": "{BusinessPartnerBirthDateStatus}"
+						},
+						{
+							"KeyName": "BusinessPartnerBirthplaceName",
+							"Value": "{BusinessPartnerBirthplaceName}"
+						},
+						{
+							"KeyName": "BusinessPartnerDeathDate",
+							"Value": "{BusinessPartnerDeathDate}"
+						},
+						{
+							"KeyName": "BusinessPartnerIsBlocked",
+							"Value": "{BusinessPartnerIsBlocked}"
+						},
+						{
+							"KeyName": "BusinessPartnerType",
+							"Value": "{BusinessPartnerType}"
+						},
+						{
+							"KeyName": "ETag",
+							"Value": "{ETag}"
+						},
+						{
+							"KeyName": "GroupBusinessPartnerName1",
+							"Value": "{GroupBusinessPartnerName1}"
+						},
+						{
+							"KeyName": "GroupBusinessPartnerName2",
+							"Value": "{GroupBusinessPartnerName2}"
+						},
+						{
+							"KeyName": "IndependentAddressID",
+							"Value": "{IndependentAddressID}"
+						},
+						{
+							"KeyName": "InternationalLocationNumber3",
+							"Value": "{InternationalLocationNumber3}"
+						},
+						{
+							"KeyName": "MiddleName",
+							"Value": "{MiddleName}"
+						},
+						{
+							"KeyName": "NameCountry",
+							"Value": "{NameCountry}"
+						},
+						{
+							"KeyName": "NameFormat",
+							"Value": "{NameFormat}"
+						},
+						{
+							"KeyName": "PersonFullName",
+							"Value": "{PersonFullName}"
+						},
+						{
+							"KeyName": "PersonNumber",
+							"Value": "{PersonNumber}"
+						},
+						{
+							"KeyName": "IsMarkedForArchiving",
+							"Value": "{IsMarkedForArchiving}"
+						},
+						{
+							"KeyName": "BusinessPartnerIDByExtSystem",
+							"Value": "{BusinessPartnerIDByExtSystem}"
+						},
+						{
+							"KeyName": "BusinessPartnerPrintFormat",
+							"Value": "{BusinessPartnerPrintFormat}"
+						},
+						{
+							"KeyName": "BusinessPartnerOccupation",
+							"Value": "{BusinessPartnerOccupation}"
+						},
+						{
+							"KeyName": "BusPartMaritalStatus",
+							"Value": "{BusPartMaritalStatus}"
+						},
+						{
+							"KeyName": "BusPartNationality",
+							"Value": "{BusPartNationality}"
+						},
+						{
+							"KeyName": "BusinessPartnerBirthName",
+							"Value": "{BusinessPartnerBirthName}"
+						},
+						{
+							"KeyName": "BusinessPartnerSupplementName",
+							"Value": "{BusinessPartnerSupplementName}"
+						},
+						{
+							"KeyName": "NaturalPersonEmployerName",
+							"Value": "{NaturalPersonEmployerName}"
+						},
+						{
+							"KeyName": "LastNamePrefix",
+							"Value": "{LastNamePrefix}"
+						},
+						{
+							"KeyName": "LastNameSecondPrefix",
+							"Value": "{LastNameSecondPrefix}"
+						},
+						{
+							"KeyName": "Initials",
+							"Value": "{Initials}"
+						},
+						{
+							"KeyName": "BPDataControllerIsNotRequired",
+							"Value": "{BPDataControllerIsNotRequired}"
+						},
+						{
+							"KeyName": "TradingPartner",
+							"Value": "{TradingPartner}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_BusinessPartner_Detail",
+	"PrefersLargeCaption": true
+}

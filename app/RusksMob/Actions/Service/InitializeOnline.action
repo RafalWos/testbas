@@ -1,0 +1,10 @@
+{
+    "Service": "/RusksMob/Services/service1.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnSuccess": "/RusksMob/Actions/Service/InitializeOnlineSuccessMessage.action",
+    "OnFailure": "/RusksMob/Actions/Service/InitializeOnlineFailureMessage.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}

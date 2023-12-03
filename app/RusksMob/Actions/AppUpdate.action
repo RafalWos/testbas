@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/RusksMob/Rules/AppUpdateFailure.js",
+    "OnSuccess": "/RusksMob/Rules/AppUpdateSuccess.js"
+}

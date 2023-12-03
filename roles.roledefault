@@ -16,11 +16,11 @@
 		}
 	},
 	{
-		"Name": "system-user",
-		"Description": "any users",
+		"Name": "RiskManager",
+		"Description": "",
 		"defaultPrivilege": {
 			"IsSimple": true,
-			"SimplePrivilege": 2
+			"SimplePrivilege": 3
 		}
 	},
 	{
@@ -32,11 +32,19 @@
 		}
 	},
 	{
-		"Name": "RiskManager",
-		"Description": "",
+		"Name": "system-user",
+		"Description": "any users",
 		"defaultPrivilege": {
 			"IsSimple": true,
-			"SimplePrivilege": 3
+			"SimplePrivilege": 2
+		}
+	},
+	{
+		"Name": "test",
+		"Description": "test",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 2
 		}
 	}
 ]

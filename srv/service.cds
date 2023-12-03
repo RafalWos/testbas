@@ -1,3 +1,5 @@
+using { BusinessArea_Read } from './external/BusinessArea_Read.cds';
+
 using { BusinessPartnerA2X } from './external/BusinessPartnerA2X.cds';
 
 using { RiskManagement as my } from '../db/schema';
@@ -8,13 +10,15 @@ service RiskManagementService
     annotate Mitigations with @restrict :
     [
         { grant : [ 'READ' ], to : [ 'RiskViewer' ] },
-        { grant : [ '*' ], to : [ 'RiskManager' ] }
+        { grant : [ '*' ], to : [ 'RiskManager' ] },
+        { grant : [ 'READ' ], to : [ 'test' ] }
     ];
 
     annotate Risks with @restrict :
     [
         { grant : [ 'READ' ], to : [ 'RiskViewer' ] },
-        { grant : [ '*' ], to : [ 'RiskManager' ] }
+        { grant : [ '*' ], to : [ 'RiskManager' ] },
+        { grant : [ 'READ' ], to : [ 'test' ] }
     ];
 
     @odata.draft.enabled

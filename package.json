@@ -20,11 +20,12 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@sap/ux-specification": "^1.108.18"
+    "@sap/ux-specification": "^1.108.19"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-RiskManagement.Risks": "cds watch --open RiskManagement.Risks/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-RiskManagement.Risks": "cds watch --open RiskManagement.Risks/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-RiskManagement.Risks2": "cds watch --open RiskManagement.Risks2/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -46,6 +47,16 @@
             "path": "s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER"
           }
         }
+      },
+      "BusinessArea_Read": {
+        "kind": "odata-v2",
+        "model": "srv/external/BusinessArea_Read",
+        "[production]": {
+          "credentials": {
+            "destination": "apihub_sandbox",
+            "path": "s4hanacloud/sap/opu/odata/sap/API_BUSINESSAREA_SRV"
+          }
+        }
       }
     },
     "features": {
@@ -54,6 +65,7 @@
   },
   "lcap": true,
   "sapux": [
-    "app/RiskManagement.Risks"
+    "app/RiskManagement.Risks",
+    "app/RiskManagement.Risks2"
   ]
 }

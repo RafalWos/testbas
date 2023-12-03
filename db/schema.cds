@@ -1,5 +1,7 @@
 namespace RiskManagement;
 
+using { BusinessArea_Read } from '../srv/external/BusinessArea_Read.cds';
+
 using { BusinessPartnerA2X } from '../srv/external/BusinessPartnerA2X.cds';
 
 using
@@ -25,6 +27,7 @@ entity Risks : managed
     criticality : Integer;
     miti : Association to one Mitigations;
     supplier : Association to one BusinessPartnerA2X.A_BusinessPartner;
+    a_BusinessArea : Association to one BusinessArea_Read.A_BusinessArea;
 }
 
 entity Mitigations : managed

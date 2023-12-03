@@ -1,0 +1,13 @@
+{
+    "DestinationName": "../service/RiskManagement/",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "",
+    "OnlineOptions": {
+	"ServiceOptions": {
+		"fixMissingNullValues": true
+	}
+},
+    "PathSuffix": "",
+    "SourceType": "Cloud",
+    "ServiceUrl":""
+}

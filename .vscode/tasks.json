@@ -28,6 +28,21 @@
       }
     },
     {
+      "label": "PreLaunchTask for Run RiskManagement-6",
+      "type": "process",
+      "command": "basctl",
+      "args": [
+        "--command",
+        "PT.runner.generateLaunchPage"
+      ],
+      "dependsOn": [
+        "BuildMDK"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
       "label": "npm-install",
       "type": "process",
       "command": "npm",
